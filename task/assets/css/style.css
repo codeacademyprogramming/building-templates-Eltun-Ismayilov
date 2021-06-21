@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 47px;
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+ul{
+ width: 100%;
+ height: 47px;
+ padding: 15px;
+
+}
+ul li{
+    height: auto;
+    display: inline-block;
+    color: white;
+    padding: 14px;
+    margin-top: -20px;
+    cursor: pointer;
+
+}
+
+ ul li:hover{
+     background-color: #d5d5d5;
+}
+
+ ul .red:hover{
+    background-color: red;
+}
+.red{
+    margin-left: 850px;
+}
+svg{
+    color: white;
+}
+
+#eltun{
+    width: 100%;
+    background-image: url(https://www.w3schools.com/w3images/ny.jpg);
+    height: 660px;
+    background-size: cover;
+}
+.new{
+    margin-left: 600px;
+    padding-top: 505px;
+    color: white;
+}
+.the{
+    margin-left: 500px;
+    padding-top: 10px;
+    color: white;
+}
+.section{
+    width: 100%;
+    height: 500px;
+}
+.band{
+    margin-left: 583px;
+    margin-top: 70px;
+    letter-spacing: 5px;
+    font-size: 28px;
+    font-family: "Segoe UI",Arial,sans-serif;
+
+}
+.we{
+    margin-left: 610px;
+    font-size: 17px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin-top: 11px;
+    color: silver;
+}
+.lorem{
+    width: 60%;
+    margin-left: 307px;
+    margin-top: 28px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.container{
+    width: 70%;
+    height: 40px;
+    background-color: red;
+}
+.name1{
+    margin-left: 420px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.name{
+    width: 160px;
+    height: 150px;
+    background-image: url(https://www.w3schools.com/w3images/bandmember.jpg);
+    background-size: cover;
+    margin-left: 360px;
+    margin-top: 15px;
+}
+
+.name2{
+    margin-left: 686px;
+    margin-top: -186px;
+    font-size: 16px;
+}
+.name3{
+    width: 160px;
+    height: 150px;
+    background-image: url(https://www.w3schools.com/w3images/bandmember.jpg);
+    background-size: cover;
+    margin-left: 629px;
+    margin-top: 17px;
+}
+.name4{
+    margin-left: 957px;
+    margin-top: -186px;
+    font-size: 16px;
+}
+
+.name5{
+    width: 160px;
+    height: 150px;
+    background-image: url(https://www.w3schools.com/w3images/bandmember.jpg);
+    background-size: cover;
+    margin-left: 898px;
+    margin-top: 17px;
+}
+.center{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.tour{
+    margin-left: 42%;
+    padding-top: 58px;
+    letter-spacing: 4px;
+    color: white;
+    font-size: 31px;
+    font-family: "Segoe UI",Arial,"sans-serif";
+    font-weight: 400;
+}
+.rememebr{
+    margin-left: 42%;
+    padding-top: 19px;
+    color: silver;
+    font-size: 15px;
+    font-family: "Segoe UI",Arial,"sans-serif";
+    font-weight: 400;
+}
+.center1{
+    width: 61%;
+    height: 130px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 21%;
+}
+
+.semptember{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: silver;
+}
+.sold{
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    background-color: red;
+    padding: 3px 6px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background-color: black;
+
+}
+.col-1{
+
+    width: 19%;
+    height: 440px;
+    background-color: white;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+img{
+    width: 256px;
+    height: 208px;
+    background-size: contain;
+    margin-left: -10px;
+}
+img:hover{
+    opacity: 0.8;
+}
+.york{
+    font-size: 20px;
+    margin-left: 7px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.fri{
+    font-size: 18px;
+    margin-left: 7px;
+    margin-top: 18px;
+    color: silver;
+}
+.sed{
+    font-size: 17px;
+    margin-left: 7px;
+    margin-top: 18px;
+    width: 230px;
+}
+.btn{
+    width: 112px;
+    height: 40px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin-left: 8px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #d5d5d5;
+    color: black;
+}
+.melumat{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+.contact{
+    margin-left: 42%;
+    padding-top: 64px;
+    font-size: 31px;
+    font-family: "Segoe UI",Arial,"sans-serif";
+    letter-spacing: 3px;
+    font-weight: 400;
+
+}
+.fan{
+    margin-left: 43%;
+    padding-top: 13px;
+    font-size: 16px;
+    color: silver;
+    font-family: "Segoe UI",Arial,"sans-serif";
+   
+}
+.icon1{
+margin-left: 21%;
+padding-top: 65px;
+}
+
+.icon2{
+margin-left: 21%;
+padding-top: 11px;
+
+
+}
+
+.icon3{
+margin-left: 21%;
+padding-top:11px;
+
+}
+.foot{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://www.w3schools.com/w3images/map.jpg)
+}
+.finish{
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+}
+.by{
+    color: silver;
+    margin-left: 46.8%;
+    padding-top: 20px;
+} 
