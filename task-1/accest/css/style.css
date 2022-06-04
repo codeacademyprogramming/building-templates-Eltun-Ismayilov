@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.nav{
+    width: 100%;
+    height: 60px; 
+}
+ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-top:10px ;
+  
+}
+ul li{
+    padding: 10px 15px;
+    list-style-type: none;
+    letter-spacing: 2px;
+    padding-top: 
+
+}
+.li1{
+    margin-left: 30px;
+}
+.li2{
+    margin-left: 870px;
+}
+li:hover{
+     background-color: silver;
+}
+@media screen and (max-width:600px){
+    .li2 ,.li3, .li4{
+     display: none;
+   }
+}
+
+.main{
+    width: 100%;
+    height: 720px;
+    background-size: contain;
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    display: flex;
+}
+.black{
+    width: 81px;
+    height: 65px;
+    margin-left: 39.6%;
+    margin-top: 26%;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
+.br{
+    font-size: 30px;
+    color: white;
+    padding-left: 22px;
+    padding-top: 16px;
+
+}
+.arc1{
+    font-size: 40px;
+    color: white;
+    padding-left: 14px;
+    margin-top: 26.8%;
+    letter-spacing: 6px;
+    font-weight: 100;
+
+}
+@media screen and (max-width:600px){
+ 
+    .arc1{
+        display: none;
+    }
+    .black{
+    margin-left: center;
+    }
+    .main{
+       background-repeat: no-repeat;
+       height: 320px;
+    }
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    justify-content: center;
+}
+.col-md-12{
+    width: 95%;
+    height: 90px;
+    background-color: white;
+}
+.projects{
+    font-size: 26px;
+    margin-top: 50px;
+}
+.container-1{
+    display: flex;
+    width: 95%;
+    background-color: white;
+    height: 450px;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 25px;
+    flex-wrap: wrap;
+  
+}
+.col-md-3{
+    width: 23.5%;
+    height: 200px;  
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+    
+
+}
+.col{
+    width: 125px;
+    height: 39px;
+    background-color: black;
+    color: white;
+    
+}
+.summer{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width:600px){
+ 
+   .col-md-3{
+       width: 100%;
+       margin-top: 10px;
+       height: 300px;
+   }
+}
+@media screen and (max-width:600px){
+ 
+ .projects1{
+     font-size: 19px;
+ }
+ }
+ 
+ 
+.container-2{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 490px;
+    justify-content: space-around;
+    margin-top: 180px;
+    margin-left: 5px;
+    flex-wrap: wrap;
+
+}
+.col-ms-4{
+    width: 24.5%;
+    height: 440px;  
+}
+.img{
+    width: 100%;
+    height: 201px;
+    background-image: url(https://www.w3schools.com/w3images/team2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.doe{
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.ceo{
+    margin-top: 20px;
+    font-size: 19px;
+    color: silver;
+}
+.lorem{ 
+     margin-top: 20px;
+    font-size: 19px;
+    color: silver;
+    
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    margin-top: 21px;
+    border: none;
+}
+.btn:hover{
+    background-color: silver;
+}
+
+
+@media screen and (max-width:600px){
+ 
+    .col-ms-4{
+        width: 100%;
+        margin-left: -20px;
+        margin-top: 90px;
+
+        
+    }
+    .img{
+        background-size: cover;
+        height: 300px;
+    }
+ }
+
+.col-12{
+    width: 100%;
+    height: 50px;
+    margin-top: 90px;
+}
+.con{
+    font-size: 25px;
+}
+
+.col-12-i{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.con1{
+    font-size: 20px;
+}
+
+.col-12-p{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.tes{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+.button{
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.col-12-a{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+    background-image: url(https://www.w3schools.com/w3images/map.jpg);
+}
+.col-12-c{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    background-color: black;
+}
+.eltun{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.elt{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.elt:hover{
+    color: green;
+}
